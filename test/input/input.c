@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-	char firstname[20], lasname[20];
+	char firstname[20], lastname[20];
 
 	printf("Enter youre first name : ");
 	scanf("%s", firstname);
