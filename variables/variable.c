@@ -7,6 +7,8 @@ int main()
     int characterAge = 35;
     printf("There once was a man named %s\n", charactername); // insert string variable using a place holder
     printf("he was %d years old.\n", characterAge);           //%d inserts intefer number
+    // new value modification within the code block
+    characterAge = 30;
     printf("He really liked the name %s\n", charactername);
     printf("but did not like being %d.\n", characterAge);
 
